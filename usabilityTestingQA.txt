@@ -3,9 +3,13 @@ Where will i get the code as a creator?
 Do we share files? 
 Join code for creator should be visible
 How do you exit the room
-"Time out" function - creator has the ability to kick members out
+"Time out" function
+creator has the ability to kick members out
 Help menu
 Save the entire board
 Invite code is displayed for creators at first then after 2+ members in room it is put in the settings for room
 When leaving or room closes give users option to save the entire board
+Keep in mind of colors
+
+
 
