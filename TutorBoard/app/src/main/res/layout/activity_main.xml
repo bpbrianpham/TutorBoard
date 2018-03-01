@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffdab9"
     tools:context="com.example.ben.tutorboard.MainActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:gravity="center"
         android:text="Create"
         android:textSize="40sp"
+        android:background="@drawable/rounded_border_textview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,6 +26,7 @@
         android:gravity="center"
         android:text="Join"
         android:textSize="40sp"
+        android:background="@drawable/rounded_border_textview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
