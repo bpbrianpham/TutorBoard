@@ -30,7 +30,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ben.tutorboard.MainActivity"/>
         </activity>
-        <activity android:name=".EnterSession">
+        <activity android:name=".EnterSession"
+                  android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ben.tutorboard.MainActivity" />
         </activity>
     </application>
 
