@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#ffdab9"
-                tools:context="com.example.ben.tutorboard.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdab9"
+    tools:context="com.example.ben.tutorboard.MainActivity">
 
 
     <Button
@@ -19,5 +19,14 @@
         android:text="@string/create"
         android:textSize="30sp"/>
 
+    <Button
+        android:id="@+id/buttonJoin"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="300dp"
+        android:background="@drawable/rounded_border_textview"
+        android:text="@string/join"
+        android:textSize="30sp"/>
 
 </RelativeLayout>
