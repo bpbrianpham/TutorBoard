@@ -9,24 +9,46 @@
     tools:context="com.example.ben.tutorboard.EnterSession">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textSession"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText"
+        android:layout_above="@+id/enterCode"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
         android:text="Enter session code"
         android:textColor="@color/black"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
     <EditText
+        android:id="@+id/enterCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:hint="Session Code"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:hint="Session Code"
-        android:textSize="20sp"
-        android:id="@+id/editText"/>
+        android:text="Enter Password"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/joinButton"
@@ -34,21 +56,19 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/cancelJoinButton"
         android:layout_alignBottom="@+id/cancelJoinButton"
-        android:layout_alignEnd="@+id/textView"
-        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textSession"
+        android:layout_alignRight="@+id/textSession"
         android:text="Join"/>
 
     <Button
         android:id="@+id/cancelJoinButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textSession"
+        android:layout_alignStart="@+id/textSession"
         android:layout_below="@+id/editText"
         android:layout_marginTop="33dp"
         android:text="Cancel"/>
-
-
 
 
 </RelativeLayout>
