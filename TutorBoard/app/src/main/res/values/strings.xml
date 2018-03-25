@@ -14,10 +14,23 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="create">Create Room</string>
+    <string name="create">Create</string>
     <string name="join">Join</string>
     <string name="title_activity_main2">LoginActivity</string>
     <string name="cancel">Cancel</string>
     <string name="login">Login</string>
     <string name="password">Create Password</string>
+    <string name="no_account">No Account?</string>
+    <string name="tutor">Tutor</string>
+    <string name="student">Student</string>
+    <string name="tell">Tell Us More About Yourself</string>
+    <string name="proceed">Continue</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">My Profile</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="mastery">Subject of Mastery</string>
+    <string name="bio">Bio:</string>
 </resources>

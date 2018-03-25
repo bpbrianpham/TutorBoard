@@ -21,20 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity"></activity>
         <activity
-            android:name=".EnterSession"
-            android:parentActivityName=".MainActivity">
+            android:name=".DecisionActivity"
+            android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ben.tutorboard.MainActivity" />
+                android:value="com.example.ben.tutorboard.LoginActivity" />
         </activity>
-        <activity android:name=".LoginActivity"
-            android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".InfoActivity"
+            android:parentActivityName=".DecisionActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ben.tutorboard.MainActivity" />
+                android:value="com.example.ben.tutorboard.DecisionActivity" />
         </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"></activity>
     </application>
 
 </manifest>
