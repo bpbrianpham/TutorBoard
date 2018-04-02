@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Conversation" representedClassName="Conversation" syncable="YES" codeGenerationType="class">
+        <attribute name="conversationID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="message" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Message" inverseName="conversation" inverseEntity="Message" syncable="YES"/>
+        <relationship name="tutor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tutor" inverseName="conversation" inverseEntity="Tutor" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="conversationID"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isMediaMessage" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="senderDisplayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="conversation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Conversation" inverseName="message" inverseEntity="Conversation" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uniqueid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Tutor" representedClassName="Tutor" syncable="YES" codeGenerationType="class">
+        <attribute name="bio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilePic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="conversation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Conversation" inverseName="tutor" inverseEntity="Conversation" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uniqueid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Conversation" positionX="-479" positionY="-124" width="128" height="90"/>
+        <element name="Message" positionX="-315" positionY="-63" width="128" height="150"/>
+        <element name="Tutor" positionX="-648" positionY="-252" width="128" height="195"/>
+    </elements>
+</model>
