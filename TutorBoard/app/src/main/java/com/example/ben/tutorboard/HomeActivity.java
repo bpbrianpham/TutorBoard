@@ -3,42 +3,66 @@ package com.example.ben.tutorboard;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
+import android.widget.FrameLayout;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
+    private BottomNavigationView mMainNav;
+    private FrameLayout mMainFrame;
 
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
-                    return true;
-                case R.id.navigation_messages:
-                    mTextMessage.setText(R.string.title_messages);
-                    return true;
-                case R.id.navigation_profile:
-                    mTextMessage.setText(R.string.title_profile);
-                    return true;
-            }
-            return false;
-        }
-    };
+    private HomeFragment homeFragment;
+    private MessageFragment messageFragment;
+    private ProfileFragment profileFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        mMainFrame = (FrameLayout) findViewById(R.id.frame_layout);
+        mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
+
+        homeFragment = new HomeFragment();
+        messageFragment = new MessageFragment();
+        profileFragment = new ProfileFragment();
+
+        setFragment(homeFragment);
+
+        mMainNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+
+                    case R.id.navigation_home :
+                        setFragment(homeFragment);
+                        return true;
+
+                    case R.id.navigation_messages :
+                        setFragment(messageFragment);
+
+                        return true;
+
+                    case R.id.navigation_profile :
+                        setFragment(profileFragment);
+                        return true;
+
+                        default :
+                            return false;
+                }
+            }
+        });
+
+    }
+
+    private void setFragment(Fragment fragment) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.frame_layout, fragment);
+        fragmentTransaction.commit();
+
     }
 
 }
