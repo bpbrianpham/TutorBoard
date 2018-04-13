@@ -33,7 +33,6 @@
     <string name="lastName">Last Name</string>
     <string name="mastery">Subject of Mastery</string>
     <string name="bio">Bio:</string>
+    <string name="tutorImage">Tutor help</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

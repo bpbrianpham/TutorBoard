@@ -21,24 +21,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity
-            android:name=".DecisionActivity"
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".DecisionActivity"
             android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ben.tutorboard.LoginActivity" />
         </activity>
-        <activity
-            android:name=".InfoActivity"
+        <activity android:name=".InfoActivity"
             android:parentActivityName=".DecisionActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ben.tutorboard.DecisionActivity" />
         </activity>
-        <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"></activity>
+        <activity android:name=".HomeActivity" />
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
