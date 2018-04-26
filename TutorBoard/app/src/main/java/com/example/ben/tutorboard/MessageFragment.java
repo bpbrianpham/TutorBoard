@@ -1,6 +1,7 @@
 package com.example.ben.tutorboard;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -44,13 +45,14 @@ public class MessageFragment extends Fragment {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.tutor_image :
+        int id = item.getItemId();
+        if(id == R.id.tutor_write){
+            Intent intent = new Intent(getActivity(), WritingBoard.class);
+            startActivity(intent);
             return true;
-
-            default :
-                return super.onOptionsItemSelected(item);
         }
+        return super.onOptionsItemSelected(item);
+
     }
 
 }

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "246406664391-915nrtq11de552om1k0jo90ic99q3u4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ben.tutorboard",
+            "certificate_hash": "0f982e14133e84fe9dc253bfd60f4d2f1053860a"
+          }
+        },
+        {
           "client_id": "246406664391-5ae77m3fk1rh4lj4ib6h7koeb708un64.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

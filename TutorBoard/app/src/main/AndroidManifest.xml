@@ -22,13 +22,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".DecisionActivity"
+        <activity
+            android:name=".DecisionActivity"
             android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ben.tutorboard.LoginActivity" />
         </activity>
-        <activity android:name=".InfoActivity"
+        <activity
+            android:name=".InfoActivity"
             android:parentActivityName=".DecisionActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -41,9 +43,12 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".MyFirebaseMessagingService"
+        <service
+            android:name=".MyFirebaseMessagingService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity android:name=".WritingBoard" />
     </application>
 
 </manifest>
