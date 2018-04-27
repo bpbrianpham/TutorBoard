@@ -34,5 +34,6 @@
     <string name="mastery">Subject of Mastery</string>
     <string name="bio">Bio:</string>
     <string name="tutorImage">Tutor help</string>
+    <string name="input">Input</string>
 
 </resources>
