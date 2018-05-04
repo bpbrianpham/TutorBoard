@@ -5,17 +5,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MessageFragment extends Fragment {
+public class MessageFragment extends Fragment implements View.OnClickListener{
 
 
     public MessageFragment() {
@@ -29,30 +27,30 @@ public class MessageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState)
     {
         View v = inflater.inflate(R.layout.fragment_message, parent, false);
-        setHasOptionsMenu(true);
+
+        Button bT = v.findViewById(R.id.personTaylor);
+        bT.setOnClickListener(this);
+
+        Button bM = v.findViewById(R.id.personMark);
+        bM.setOnClickListener(this);
+
         return v;
     }
 
-
     @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.tutorlink, menu);
-        super.onCreateOptionsMenu(menu, inflater);
-    }
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.personTaylor:
+                Intent intent = new Intent(getActivity(), MessageActivity.class);
+                startActivity(intent);
+                break;
 
+            case R.id.personMark:
+                Intent intent2 = new Intent(getActivity(), MessageActivity.class);
+                startActivity(intent2);
+                break;
 
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if(id == R.id.tutor_write){
-            Intent intent = new Intent(getActivity(), WritingBoard.class);
-            startActivity(intent);
-            return true;
         }
-        return super.onOptionsItemSelected(item);
-
     }
 
 }

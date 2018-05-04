@@ -48,7 +48,17 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".WritingBoard" />
+        <activity
+            android:name=".WritingBoard"
+            android:parentActivityName=".MessageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ben.tutorboard.MessageActivity" />
+        </activity>
+
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".TaylorActivity" />
+        <activity android:name=".MarkActivity"></activity>
     </application>
 
 </manifest>

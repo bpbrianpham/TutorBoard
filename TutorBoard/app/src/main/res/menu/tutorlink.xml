@@ -4,7 +4,8 @@
 
     <item
         android:id="@+id/tutor_write"
-        android:icon="@drawable/ic_create_black_24dp"
         android:title="@string/tutorImage"
-        app:showAsAction="ifRoom"></item>
+        app:showAsAction="ifRoom">
+
+    </item>
 </menu>

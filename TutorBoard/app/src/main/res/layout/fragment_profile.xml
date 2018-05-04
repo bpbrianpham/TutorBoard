@@ -23,13 +23,14 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
         android:layout_marginTop="24dp"
-        android:layout_centerHorizontal="true"
-        android:layout_toEndOf="@+id/profile"
-        android:layout_toRightOf="@+id/profile"
-        android:layout_marginLeft="20dp"
         android:gravity="center"
-        android:text="Tom"
+        android:text="Thomas O'Malley"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -38,23 +39,184 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="10dp"
-        android:layout_toEndOf="@+id/profile"
-        android:layout_toRightOf="@+id/profile"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_marginTop="77dp"
         android:gravity="center"
-        android:text="Thomas O'Malley"
+        android:text="Bio: I Love math."
         android:textSize="18sp"
         android:textStyle="italic" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/profile"
-        android:orientation="vertical">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/black"
+        android:text="Person Info" />
 
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonMessage"
+        android:layout_alignStart="@+id/textInfo"
+        android:layout_alignLeft="@+id/textInfo"
+        android:text="Messages"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textNotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonNotif"
+        android:layout_alignStart="@+id/textInfo"
+        android:layout_alignLeft="@+id/textInfo"
+        android:text="Notifications"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textInv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonInv"
+        android:layout_alignStart="@+id/textInfo"
+        android:layout_alignLeft="@+id/textInfo"
+        android:text="Invite"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonHelp"
+        android:layout_alignStart="@+id/textInfo"
+        android:layout_alignLeft="@+id/textInfo"
+        android:text="Help"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonLog"
+        android:layout_alignStart="@+id/textInfo"
+        android:layout_alignLeft="@+id/textInfo"
+        android:text="Log out"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageInfo"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:layout_above="@+id/imageMessage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/ic_mail_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageMessage"
+        android:layout_width="71dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonInfo"
+        app:srcCompat="@drawable/ic_message_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageNotif"
+        android:layout_width="72dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/imageInv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/ic_notifications_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageInv"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonNotif"
+        app:srcCompat="@drawable/ic_people_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageHelp"
+        android:layout_width="72dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonInv"
+        app:srcCompat="@drawable/ic_help_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageLog"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonHelp"
+        app:srcCompat="@drawable/ic_exit_to_app_black_24dp" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:background="@drawable/borderless" />
+
+    <Button
+        android:id="@+id/buttonMessage"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonInfo"
+        android:background="@drawable/borderless" />
+
+    <Button
+        android:id="@+id/buttonNotif"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonMessage"
+        android:background="@drawable/borderless" />
+
+    <Button
+        android:id="@+id/buttonInv"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonNotif"
+        android:background="@drawable/borderless" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonInv"
+        android:background="@drawable/borderless" />
+
+    <Button
+        android:id="@+id/buttonLog"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonHelp"
+        android:background="@drawable/borderless" />
 
 </RelativeLayout>

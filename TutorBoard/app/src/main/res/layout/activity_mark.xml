@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdab9"
+    tools:context=".MarkActivity">
+
+    <ImageView
+        android:id="@+id/MarkPicture"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/mark"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <TextView
+        android:id="@+id/markName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MarkPicture"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="@string/mark" />
+
+    <TextView
+        android:id="@+id/markSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/markName"
+        android:layout_centerHorizontal="true"
+        android:text="Subjects                                       Biology"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/markBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:text="Bio: I love Calculus"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/requestMark"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:text="Request Tutoring from Mark"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/reviewMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Review:"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

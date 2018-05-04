@@ -32,6 +32,7 @@ public class DecisionActivity extends AppCompatActivity {
             }
         });
     }
+
     public void openInfoActivity() {
         Intent intent = new Intent(this, InfoActivity.class);
         startActivity(intent);

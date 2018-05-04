@@ -12,48 +12,73 @@
     tools:menu=""
     tools:context=".MessageFragment">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:clickable="true"
-        android:focusable="true"
-        app:srcCompat="@drawable/ic_send_black_24dp"
-        android:tint="@android:color/white"
-        app:backgroundTint="@android:color/holo_blue_dark"
-        app:fabSize="mini" />
+    <TextView
+        android:id="@+id/taylorPro"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/markPro"
+        android:layout_alignLeft="@+id/markPro"
+        android:layout_alignStart="@+id/markPro"
+        android:layout_marginBottom="0dp"
+        android:text="Taylor Left"
+        android:textSize="14sp" />
 
-    <android.support.design.widget.TextInputLayout
+    <ImageView
+        android:id="@+id/imageTaylor"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/personTaylor"
+        android:layout_alignLeft="@+id/personTaylor"
+        android:layout_alignStart="@+id/personTaylor"
+        android:layout_alignTop="@+id/personTaylor"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <TextView
+        android:id="@+id/markPro"
+        android:layout_width="126dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Mark Disco"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageMark"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/personMark"
+        android:layout_alignLeft="@+id/personMark"
+        android:layout_alignStart="@+id/personMark"
+        android:layout_alignTop="@+id/personMark"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <View
+        android:id="@+id/divider"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_toLeftOf="@id/fab"
-        android:layout_toStartOf="@+id/fab"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true">
+        android:layout_height="1dp"
+        android:layout_marginTop="71dp"
+        android:background="@android:color/background_dark" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/input"
-            android:id="@+id/input"
-            android:inputType="textAutoCorrect"
-            />
-    </android.support.design.widget.TextInputLayout>
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_above="@id/fab"
-        android:dividerHeight="16dp"
-        android:divider="@android:color/transparent"
-        android:id="@+id/list_of_messages"
-        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/personTaylor"
+        android:layout_width="351dp"
+        android:layout_height="69dp"
+        android:layout_above="@+id/divider"
+        android:layout_alignStart="@+id/divider"
+        android:layout_alignLeft="@+id/divider"
+        android:layout_marginBottom="-71dp"
+        android:background="@drawable/borderless" />
+
+    <Button
+        android:id="@+id/personMark"
+        android:layout_width="351dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/divider"
+        android:layout_alignStart="@+id/divider"
+        android:layout_alignLeft="@+id/divider"
+        android:layout_marginBottom="-71dp"
+        android:background="@drawable/borderless" />
 
 </RelativeLayout>
