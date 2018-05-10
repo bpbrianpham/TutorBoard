@@ -58,6 +58,7 @@ public class PaintView extends View {
         mBlur = new BlurMaskFilter(5, BlurMaskFilter.Blur.NORMAL);
     }
 
+    //The screen is presented by these measures
     public void init(DisplayMetrics metrics) {
         int height = metrics.heightPixels;
         int width = metrics.widthPixels;
@@ -69,6 +70,7 @@ public class PaintView extends View {
         strokeWidth = BRUSH_SIZE;
     }
 
+    //These will change the touch on the screen to 1 of the 3
     public void normal() {
         emboss = false;
         blur = false;
@@ -84,6 +86,7 @@ public class PaintView extends View {
         blur = true;
     }
 
+    //This will clear the screen
     public void clear() {
         backgroundColor = DEFAULT_BG_COLOR;
         paths.clear();
@@ -91,6 +94,7 @@ public class PaintView extends View {
         invalidate();
     }
 
+    //Once written on the screen, it will save the path drawn
     @Override
     protected void onDraw(Canvas canvas) {
         canvas.save();
@@ -114,6 +118,7 @@ public class PaintView extends View {
         canvas.restore();
     }
 
+    //This gets the x and y position of the touch
     private void touchStart(float x, float y) {
         mPath = new Path();
         FingerPath fp = new FingerPath(currentColor, emboss, blur, strokeWidth, mPath);
@@ -125,6 +130,7 @@ public class PaintView extends View {
         mY = y;
     }
 
+    //Once the tap moves, it will follow the path
     private void touchMove(float x, float y) {
         float dx = Math.abs(x - mX);
         float dy = Math.abs(y - mY);

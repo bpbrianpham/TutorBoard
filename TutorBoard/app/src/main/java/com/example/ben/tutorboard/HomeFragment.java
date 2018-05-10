@@ -24,7 +24,8 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
+        //The system will be listening to any taps the user performs on selected locations
         View v = inflater.inflate(R.layout.fragment_home, container, false);
 
         Button bT = v.findViewById(R.id.buttonTaylor);
@@ -36,6 +37,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         return v;
     }
 
+    //Tapping on a person's button will take the user to the person's profile
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

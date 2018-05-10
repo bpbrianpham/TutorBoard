@@ -15,6 +15,7 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
 
+        //The user's information will be saved and will be moved into the HomeActivity
         buttonCont = (Button) findViewById(R.id.buttonCont);
         buttonCont.setOnClickListener(new View.OnClickListener() {
             @Override

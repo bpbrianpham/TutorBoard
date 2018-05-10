@@ -21,6 +21,7 @@ public class WritingBoard extends AppCompatActivity {
         paintView.init(metrics);
     }
 
+    //Creates the options for the brush/erase in the top right
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -28,6 +29,7 @@ public class WritingBoard extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    //The brush will change or erase depending on the item selected
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {

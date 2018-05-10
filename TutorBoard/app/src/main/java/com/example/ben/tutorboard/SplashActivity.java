@@ -11,6 +11,8 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Upon starting the app, this screen appears first
         setContentView(R.layout.activity_splash);
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -21,5 +23,6 @@ public class SplashActivity extends AppCompatActivity {
             }
         }, SPLASH_TIME_OUT);
 
+        //When finished, it will go into LoginActivity
     }
 }

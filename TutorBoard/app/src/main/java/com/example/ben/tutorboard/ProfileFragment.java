@@ -24,7 +24,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        //When tapped, it will continue into it's activity
         View v = inflater.inflate(R.layout.fragment_profile, container, false);
         Button bInfo = v.findViewById(R.id.buttonInfo);
         bInfo.setOnClickListener(this);
@@ -47,6 +47,7 @@ public class ProfileFragment extends Fragment implements View.OnClickListener{
         return v;
     }
 
+    //For the moment, it will display a text saying it is not available yet
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

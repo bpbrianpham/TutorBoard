@@ -7,12 +7,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.FrameLayout;
 
 public class HomeActivity extends AppCompatActivity {
 
     private BottomNavigationView mMainNav;
-    private FrameLayout mMainFrame;
 
     private HomeFragment homeFragment;
     private MessageFragment messageFragment;
@@ -23,15 +21,18 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        mMainFrame = (FrameLayout) findViewById(R.id.frame_layout);
-        mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
+        //Creates the navigation bar at the bottom of the screen
+        mMainNav = findViewById(R.id.main_nav);
 
+        //Creates the three navigation fragments at the bottom
         homeFragment = new HomeFragment();
         messageFragment = new MessageFragment();
         profileFragment = new ProfileFragment();
 
+        //It sets the HomeFragment the first screen the user sees
         setFragment(homeFragment);
 
+        //When the user clicks on 1 of the 3 fragments, it will take them to that fragment
         mMainNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -58,6 +59,7 @@ public class HomeActivity extends AppCompatActivity {
 
     }
 
+    //This will set the fragment to replace the current one
     private void setFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.frame_layout, fragment);

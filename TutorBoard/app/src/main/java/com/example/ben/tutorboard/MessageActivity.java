@@ -14,12 +14,14 @@ public class MessageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_message);
     }
 
+    //Creates the "Board" word on the top right
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.tutorlink, menu);
         return true;
     }
 
+    //Tapping "Board" will allow the user to go into WritingBoard
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {

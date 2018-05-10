@@ -28,6 +28,7 @@ public class MessageFragment extends Fragment implements View.OnClickListener{
     {
         View v = inflater.inflate(R.layout.fragment_message, parent, false);
 
+        //The system will be listening to any taps the user performs on selected locations
         Button bT = v.findViewById(R.id.personTaylor);
         bT.setOnClickListener(this);
 
@@ -37,6 +38,7 @@ public class MessageFragment extends Fragment implements View.OnClickListener{
         return v;
     }
 
+    //Tapping on a person's button will take the user to the person's messages
     @Override
     public void onClick(View v) {
         switch (v.getId()) {

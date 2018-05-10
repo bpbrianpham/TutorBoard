@@ -10,6 +10,7 @@ public class FingerPath {
     public int strokeWidth;
     public Path path;
 
+    //Whatever is touching then screen will be influenced by this
     public FingerPath(int color, boolean emboss, boolean blur, int strokeWidth, Path path) {
         this.color = color;
         this.emboss = emboss;

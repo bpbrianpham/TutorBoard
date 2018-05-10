@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //If login is successful, goes to home
+        //Tapping login goes into HomeActivity
         buttonLog = (Button) findViewById(R.id.login);
         buttonLog.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,6 +25,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+
+        //Tapping Create goes into DecisionActivity
         buttonCreate = (Button) findViewById(R.id.create);
         buttonCreate.setOnClickListener(new View.OnClickListener(){
             @Override

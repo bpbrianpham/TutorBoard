@@ -16,6 +16,7 @@ public class DecisionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_decision);
 
+        //Two buttons that will allow the user to go into the infoActivity
         buttonTutor = (Button) findViewById(R.id.buttonTutor);
         buttonTutor.setOnClickListener(new View.OnClickListener() {
             @Override

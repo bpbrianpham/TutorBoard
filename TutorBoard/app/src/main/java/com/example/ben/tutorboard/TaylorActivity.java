@@ -15,6 +15,7 @@ public class TaylorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_taylor);
 
+        //Listens for any tap on buttons
         taylorButton = (Button) findViewById(R.id.requestTaylor);
         taylorButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +25,7 @@ public class TaylorActivity extends AppCompatActivity {
         });
     }
 
+    //Once tapped on a button, it send the user to the person's messages
     public void openInfoActivity() {
         Intent intent = new Intent(this, MessageActivity.class);
         startActivity(intent);
