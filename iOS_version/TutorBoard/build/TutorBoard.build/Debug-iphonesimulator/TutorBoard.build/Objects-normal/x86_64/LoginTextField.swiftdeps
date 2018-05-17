@@ -1,0 +1,462 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginTextField"
+provides-nominal:
+- "10TutorBoard14LoginTextFieldC"
+provides-member:
+- ["10TutorBoard14LoginTextFieldC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "LoginTextField"
+- "NSCoder"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UITextField"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIColor"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "configureUI"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "textColor"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "configureUI"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "textColor"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "configureUI"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "textColor"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "configureUI"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "textColor"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["s9EquatableP", "UIColor"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "configureUI"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "textColor"]
+- !private ["s9EquatableP", "white"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UIColor"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "configureUI"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "textColor"]
+- !private ["s8HashableP", "white"]
+- ["10TutorBoard14LoginTextFieldC", "NSCoder"]
+- !private ["10TutorBoard14LoginTextFieldC", "UIColor"]
+- !private ["10TutorBoard14LoginTextFieldC", "backgroundColor"]
+- !private ["10TutorBoard14LoginTextFieldC", "configureUI"]
+- ["10TutorBoard14LoginTextFieldC", "deinit"]
+- ["10TutorBoard14LoginTextFieldC", "init"]
+- !private ["10TutorBoard14LoginTextFieldC", "textColor"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "configureUI"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "textColor"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "configureUI"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "textColor"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "configureUI"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "textColor"]
+- !private ["So16NSObjectProtocolP", "white"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "configureUI"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "textColor"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "configureUI"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "textColor"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "configureUI"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "textColor"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "white"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "UIColor"]
+- ["So30UIContentSizeCategoryAdjustingP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "configureUI"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "textColor"]
+- ["So9UIControlC", "NSCoder"]
+- !private ["So9UIControlC", "UIColor"]
+- !private ["So9UIControlC", "backgroundColor"]
+- ["So9UIControlC", "configureUI"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "textColor"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "configureUI"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "textColor"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "configureUI"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "textColor"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "configureUI"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "textColor"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "configureUI"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "textColor"]
+- !private ["So10UIKeyInputP", "UIColor"]
+- ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "backgroundColor"]
+- !private ["So10UIKeyInputP", "configureUI"]
+- !private ["So10UIKeyInputP", "init"]
+- !private ["So10UIKeyInputP", "textColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "configureUI"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "textColor"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "configureUI"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "textColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "configureUI"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "textColor"]
+- !private ["So15UITextDraggableP", "UIColor"]
+- ["So15UITextDraggableP", ""]
+- !private ["So15UITextDraggableP", "backgroundColor"]
+- !private ["So15UITextDraggableP", "configureUI"]
+- !private ["So15UITextDraggableP", "init"]
+- !private ["So15UITextDraggableP", "textColor"]
+- !private ["So15UITextDroppableP", "UIColor"]
+- ["So15UITextDroppableP", ""]
+- !private ["So15UITextDroppableP", "backgroundColor"]
+- !private ["So15UITextDroppableP", "configureUI"]
+- !private ["So15UITextDroppableP", "init"]
+- !private ["So15UITextDroppableP", "textColor"]
+- ["So11UITextFieldC", "NSCoder"]
+- !private ["So11UITextFieldC", "UIColor"]
+- ["So11UITextFieldC", ""]
+- !private ["So11UITextFieldC", "backgroundColor"]
+- ["So11UITextFieldC", "configureUI"]
+- ["So11UITextFieldC", "init"]
+- !private ["So11UITextFieldC", "textColor"]
+- !private ["So11UITextInputP", "UIColor"]
+- ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "backgroundColor"]
+- !private ["So11UITextInputP", "configureUI"]
+- !private ["So11UITextInputP", "init"]
+- !private ["So11UITextInputP", "textColor"]
+- !private ["So17UITextInputTraitsP", "UIColor"]
+- ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "backgroundColor"]
+- !private ["So17UITextInputTraitsP", "configureUI"]
+- !private ["So17UITextInputTraitsP", "init"]
+- !private ["So17UITextInputTraitsP", "textColor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "UIColor"]
+- ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "configureUI"]
+- !private ["So34UITextPasteConfigurationSupportingP", "init"]
+- !private ["So34UITextPasteConfigurationSupportingP", "textColor"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "configureUI"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "textColor"]
+- ["So6UIViewC", "NSCoder"]
+- !private ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "configureUI"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "textColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "configureUI"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textColor"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureUI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10TutorBoard14LoginTextFieldC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s12StaticStringV"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextFieldC"
+- "So11UITextInputP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "672f666e3c7a62edf69108b5902485c6"

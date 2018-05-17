@@ -1,0 +1,1028 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignupViewController"
+provides-nominal:
+- "10TutorBoard20SignupViewControllerC"
+provides-member:
+- ["10TutorBoard20SignupViewControllerC", ""]
+- ["10TutorBoard20SignupViewControllerC", "tapDismissKeyboard"]
+- ["10TutorBoard20SignupViewControllerC", "dismissKeyboard"]
+provides-dynamic-lookup:
+- "dismissKeyboard"
+- "email_texxtfield"
+- "firstname_textfield"
+- "lastname_textfield"
+- "password_textfield"
+- "prepare"
+- "subject_textfield"
+- "viewDidLoad"
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- !private "BioViewController"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "NSArray"
+- "SignupViewController"
+- "StringLiteralType"
+- "UIStoryboardSegue"
+- !private "UITapGestureRecognizer"
+- "UITextField"
+- "UITextFieldDelegate"
+- "UIViewController"
+- !private "UserProfile"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["10TutorBoard17BioViewControllerC", "newUserInfo"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "becomeFirstResponder"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "UserProfile"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activateKeyboard"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "becomeFirstResponder"]
+- !private ["s7CVarArgP", "bio"]
+- !private ["s7CVarArgP", "contactList"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "dismissKeyboard"]
+- !private ["s7CVarArgP", "email_texxtfield"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "firstname_textfield"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastname_textfield"]
+- !private ["s7CVarArgP", "newUserInfo"]
+- !private ["s7CVarArgP", "password_textfield"]
+- !private ["s7CVarArgP", "profilePic"]
+- !private ["s7CVarArgP", "role"]
+- !private ["s7CVarArgP", "subject_textfield"]
+- !private ["s7CVarArgP", "tapDismissKeyboard"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "textField"]
+- ["s7CVarArgP", "textFieldDidBeginEditing"]
+- ["s7CVarArgP", "textFieldDidEndEditing"]
+- ["s7CVarArgP", "textFieldShouldBeginEditing"]
+- ["s7CVarArgP", "textFieldShouldClear"]
+- ["s7CVarArgP", "textFieldShouldEndEditing"]
+- ["s7CVarArgP", "textFieldShouldReturn"]
+- !private ["s7CVarArgP", "uniqueid"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UserProfile"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activateKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "bio"]
+- !private ["s28CustomDebugStringConvertibleP", "contactList"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "email_texxtfield"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "firstname_textfield"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastname_textfield"]
+- !private ["s28CustomDebugStringConvertibleP", "newUserInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "password_textfield"]
+- !private ["s28CustomDebugStringConvertibleP", "profilePic"]
+- !private ["s28CustomDebugStringConvertibleP", "role"]
+- !private ["s28CustomDebugStringConvertibleP", "subject_textfield"]
+- !private ["s28CustomDebugStringConvertibleP", "tapDismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "textField"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldDidEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldClear"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textFieldShouldReturn"]
+- !private ["s28CustomDebugStringConvertibleP", "uniqueid"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UserProfile"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activateKeyboard"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "bio"]
+- !private ["s23CustomStringConvertibleP", "contactList"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "dismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "email_texxtfield"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "firstname_textfield"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastname_textfield"]
+- !private ["s23CustomStringConvertibleP", "newUserInfo"]
+- !private ["s23CustomStringConvertibleP", "password_textfield"]
+- !private ["s23CustomStringConvertibleP", "profilePic"]
+- !private ["s23CustomStringConvertibleP", "role"]
+- !private ["s23CustomStringConvertibleP", "subject_textfield"]
+- !private ["s23CustomStringConvertibleP", "tapDismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "textField"]
+- ["s23CustomStringConvertibleP", "textFieldDidBeginEditing"]
+- ["s23CustomStringConvertibleP", "textFieldDidEndEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldBeginEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldClear"]
+- ["s23CustomStringConvertibleP", "textFieldShouldEndEditing"]
+- ["s23CustomStringConvertibleP", "textFieldShouldReturn"]
+- !private ["s23CustomStringConvertibleP", "uniqueid"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- !private ["s9EquatableP", "UserProfile"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "activateKeyboard"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "becomeFirstResponder"]
+- !private ["s9EquatableP", "bio"]
+- !private ["s9EquatableP", "contactList"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "dismissKeyboard"]
+- !private ["s9EquatableP", "email_texxtfield"]
+- !private ["s9EquatableP", "endEditing"]
+- !private ["s9EquatableP", "firstname_textfield"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lastname_textfield"]
+- !private ["s9EquatableP", "newUserInfo"]
+- !private ["s9EquatableP", "password_textfield"]
+- !private ["s9EquatableP", "profilePic"]
+- !private ["s9EquatableP", "role"]
+- !private ["s9EquatableP", "subject_textfield"]
+- !private ["s9EquatableP", "tapDismissKeyboard"]
+- !private ["s9EquatableP", "text"]
+- ["s9EquatableP", "textField"]
+- ["s9EquatableP", "textFieldDidBeginEditing"]
+- ["s9EquatableP", "textFieldDidEndEditing"]
+- ["s9EquatableP", "textFieldShouldBeginEditing"]
+- ["s9EquatableP", "textFieldShouldClear"]
+- ["s9EquatableP", "textFieldShouldEndEditing"]
+- ["s9EquatableP", "textFieldShouldReturn"]
+- !private ["s9EquatableP", "uniqueid"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- !private ["s8HashableP", "UserProfile"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "activateKeyboard"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "becomeFirstResponder"]
+- !private ["s8HashableP", "bio"]
+- !private ["s8HashableP", "contactList"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "dismissKeyboard"]
+- !private ["s8HashableP", "email_texxtfield"]
+- !private ["s8HashableP", "endEditing"]
+- !private ["s8HashableP", "firstname_textfield"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lastname_textfield"]
+- !private ["s8HashableP", "newUserInfo"]
+- !private ["s8HashableP", "password_textfield"]
+- !private ["s8HashableP", "profilePic"]
+- !private ["s8HashableP", "role"]
+- !private ["s8HashableP", "subject_textfield"]
+- !private ["s8HashableP", "tapDismissKeyboard"]
+- !private ["s8HashableP", "text"]
+- ["s8HashableP", "textField"]
+- ["s8HashableP", "textFieldDidBeginEditing"]
+- ["s8HashableP", "textFieldDidEndEditing"]
+- ["s8HashableP", "textFieldShouldBeginEditing"]
+- ["s8HashableP", "textFieldShouldClear"]
+- ["s8HashableP", "textFieldShouldEndEditing"]
+- ["s8HashableP", "textFieldShouldReturn"]
+- !private ["s8HashableP", "uniqueid"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "UserProfile"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "activateKeyboard"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "becomeFirstResponder"]
+- !private ["So8NSCodingP", "bio"]
+- !private ["So8NSCodingP", "contactList"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dismissKeyboard"]
+- !private ["So8NSCodingP", "email_texxtfield"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "firstname_textfield"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lastname_textfield"]
+- !private ["So8NSCodingP", "newUserInfo"]
+- !private ["So8NSCodingP", "password_textfield"]
+- !private ["So8NSCodingP", "profilePic"]
+- !private ["So8NSCodingP", "role"]
+- !private ["So8NSCodingP", "subject_textfield"]
+- !private ["So8NSCodingP", "tapDismissKeyboard"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "textField"]
+- ["So8NSCodingP", "textFieldDidBeginEditing"]
+- ["So8NSCodingP", "textFieldDidEndEditing"]
+- ["So8NSCodingP", "textFieldShouldBeginEditing"]
+- ["So8NSCodingP", "textFieldShouldClear"]
+- ["So8NSCodingP", "textFieldShouldEndEditing"]
+- ["So8NSCodingP", "textFieldShouldReturn"]
+- !private ["So8NSCodingP", "uniqueid"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UserProfile"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "activateKeyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "bio"]
+- !private ["So26NSExtensionRequestHandlingP", "contactList"]
+- !private ["So26NSExtensionRequestHandlingP", "dismissKeyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "email_texxtfield"]
+- !private ["So26NSExtensionRequestHandlingP", "firstname_textfield"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "lastname_textfield"]
+- !private ["So26NSExtensionRequestHandlingP", "newUserInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "password_textfield"]
+- !private ["So26NSExtensionRequestHandlingP", "profilePic"]
+- !private ["So26NSExtensionRequestHandlingP", "role"]
+- !private ["So26NSExtensionRequestHandlingP", "subject_textfield"]
+- !private ["So26NSExtensionRequestHandlingP", "tapDismissKeyboard"]
+- ["So26NSExtensionRequestHandlingP", "textField"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldDidEndEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldClear"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldEndEditing"]
+- ["So26NSExtensionRequestHandlingP", "textFieldShouldReturn"]
+- !private ["So26NSExtensionRequestHandlingP", "uniqueid"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "BioViewController"]
+- !private ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UserProfile"]
+- ["So8NSObjectC", "activateKeyboard"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "becomeFirstResponder"]
+- ["So8NSObjectC", "bio"]
+- ["So8NSObjectC", "contactList"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "dismissKeyboard"]
+- ["So8NSObjectC", "email_texxtfield"]
+- !private ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "firstname_textfield"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lastname_textfield"]
+- !private ["So8NSObjectC", "newUserInfo"]
+- ["So8NSObjectC", "password_textfield"]
+- ["So8NSObjectC", "prepare"]
+- ["So8NSObjectC", "profilePic"]
+- ["So8NSObjectC", "role"]
+- ["So8NSObjectC", "subject_textfield"]
+- ["So8NSObjectC", "tapDismissKeyboard"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textField"]
+- ["So8NSObjectC", "textFieldDidBeginEditing"]
+- ["So8NSObjectC", "textFieldDidEndEditing"]
+- ["So8NSObjectC", "textFieldShouldBeginEditing"]
+- ["So8NSObjectC", "textFieldShouldClear"]
+- ["So8NSObjectC", "textFieldShouldEndEditing"]
+- ["So8NSObjectC", "textFieldShouldReturn"]
+- ["So8NSObjectC", "uniqueid"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "UserProfile"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "activateKeyboard"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "becomeFirstResponder"]
+- !private ["So16NSObjectProtocolP", "bio"]
+- !private ["So16NSObjectProtocolP", "contactList"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "dismissKeyboard"]
+- !private ["So16NSObjectProtocolP", "email_texxtfield"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
+- !private ["So16NSObjectProtocolP", "firstname_textfield"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lastname_textfield"]
+- !private ["So16NSObjectProtocolP", "newUserInfo"]
+- !private ["So16NSObjectProtocolP", "password_textfield"]
+- !private ["So16NSObjectProtocolP", "profilePic"]
+- !private ["So16NSObjectProtocolP", "role"]
+- !private ["So16NSObjectProtocolP", "subject_textfield"]
+- !private ["So16NSObjectProtocolP", "tapDismissKeyboard"]
+- !private ["So16NSObjectProtocolP", "text"]
+- ["So16NSObjectProtocolP", "textField"]
+- ["So16NSObjectProtocolP", "textFieldDidBeginEditing"]
+- ["So16NSObjectProtocolP", "textFieldDidEndEditing"]
+- ["So16NSObjectProtocolP", "textFieldShouldBeginEditing"]
+- ["So16NSObjectProtocolP", "textFieldShouldClear"]
+- ["So16NSObjectProtocolP", "textFieldShouldEndEditing"]
+- ["So16NSObjectProtocolP", "textFieldShouldReturn"]
+- !private ["So16NSObjectProtocolP", "uniqueid"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["10TutorBoard20SignupViewControllerC", "BioViewController"]
+- !private ["10TutorBoard20SignupViewControllerC", "NSArray"]
+- ["10TutorBoard20SignupViewControllerC", "UIStoryboardSegue"]
+- !private ["10TutorBoard20SignupViewControllerC", "UITapGestureRecognizer"]
+- ["10TutorBoard20SignupViewControllerC", "UITextField"]
+- !private ["10TutorBoard20SignupViewControllerC", "UserProfile"]
+- ["10TutorBoard20SignupViewControllerC", "activateKeyboard"]
+- ["10TutorBoard20SignupViewControllerC", "bio"]
+- ["10TutorBoard20SignupViewControllerC", "contactList"]
+- ["10TutorBoard20SignupViewControllerC", "deinit"]
+- ["10TutorBoard20SignupViewControllerC", "dismissKeyboard"]
+- ["10TutorBoard20SignupViewControllerC", "email_texxtfield"]
+- ["10TutorBoard20SignupViewControllerC", "firstname_textfield"]
+- ["10TutorBoard20SignupViewControllerC", "init"]
+- ["10TutorBoard20SignupViewControllerC", "lastname_textfield"]
+- ["10TutorBoard20SignupViewControllerC", "password_textfield"]
+- ["10TutorBoard20SignupViewControllerC", "prepare"]
+- ["10TutorBoard20SignupViewControllerC", "profilePic"]
+- ["10TutorBoard20SignupViewControllerC", "role"]
+- ["10TutorBoard20SignupViewControllerC", "subject_textfield"]
+- ["10TutorBoard20SignupViewControllerC", "tapDismissKeyboard"]
+- ["10TutorBoard20SignupViewControllerC", "textField"]
+- ["10TutorBoard20SignupViewControllerC", "textFieldDidBeginEditing"]
+- ["10TutorBoard20SignupViewControllerC", "textFieldDidEndEditing"]
+- ["10TutorBoard20SignupViewControllerC", "textFieldShouldBeginEditing"]
+- ["10TutorBoard20SignupViewControllerC", "textFieldShouldClear"]
+- ["10TutorBoard20SignupViewControllerC", "textFieldShouldEndEditing"]
+- ["10TutorBoard20SignupViewControllerC", "textFieldShouldReturn"]
+- ["10TutorBoard20SignupViewControllerC", "uniqueid"]
+- !private ["10TutorBoard20SignupViewControllerC", "view"]
+- ["10TutorBoard20SignupViewControllerC", "viewDidLoad"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "becomeFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "becomeFirstResponder"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UserProfile"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "activateKeyboard"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "bio"]
+- !private ["So21UIAppearanceContainerP", "contactList"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "email_texxtfield"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "firstname_textfield"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "lastname_textfield"]
+- !private ["So21UIAppearanceContainerP", "newUserInfo"]
+- !private ["So21UIAppearanceContainerP", "password_textfield"]
+- !private ["So21UIAppearanceContainerP", "profilePic"]
+- !private ["So21UIAppearanceContainerP", "role"]
+- !private ["So21UIAppearanceContainerP", "subject_textfield"]
+- !private ["So21UIAppearanceContainerP", "tapDismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "textField"]
+- ["So21UIAppearanceContainerP", "textFieldDidBeginEditing"]
+- ["So21UIAppearanceContainerP", "textFieldDidEndEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldBeginEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldClear"]
+- ["So21UIAppearanceContainerP", "textFieldShouldEndEditing"]
+- ["So21UIAppearanceContainerP", "textFieldShouldReturn"]
+- !private ["So21UIAppearanceContainerP", "uniqueid"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UserProfile"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "activateKeyboard"]
+- !private ["So18UIContentContainerP", "bio"]
+- !private ["So18UIContentContainerP", "contactList"]
+- !private ["So18UIContentContainerP", "dismissKeyboard"]
+- !private ["So18UIContentContainerP", "email_texxtfield"]
+- !private ["So18UIContentContainerP", "firstname_textfield"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "lastname_textfield"]
+- !private ["So18UIContentContainerP", "newUserInfo"]
+- !private ["So18UIContentContainerP", "password_textfield"]
+- !private ["So18UIContentContainerP", "profilePic"]
+- !private ["So18UIContentContainerP", "role"]
+- !private ["So18UIContentContainerP", "subject_textfield"]
+- !private ["So18UIContentContainerP", "tapDismissKeyboard"]
+- ["So18UIContentContainerP", "textField"]
+- ["So18UIContentContainerP", "textFieldDidBeginEditing"]
+- ["So18UIContentContainerP", "textFieldDidEndEditing"]
+- ["So18UIContentContainerP", "textFieldShouldBeginEditing"]
+- ["So18UIContentContainerP", "textFieldShouldClear"]
+- ["So18UIContentContainerP", "textFieldShouldEndEditing"]
+- ["So18UIContentContainerP", "textFieldShouldReturn"]
+- !private ["So18UIContentContainerP", "uniqueid"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "becomeFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "delegate"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "becomeFirstResponder"]
+- !private ["So9UIControlC", "delegate"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "becomeFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "becomeFirstResponder"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UserProfile"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "activateKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "bio"]
+- !private ["So18UIFocusEnvironmentP", "contactList"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "email_texxtfield"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "firstname_textfield"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "lastname_textfield"]
+- !private ["So18UIFocusEnvironmentP", "newUserInfo"]
+- !private ["So18UIFocusEnvironmentP", "password_textfield"]
+- !private ["So18UIFocusEnvironmentP", "profilePic"]
+- !private ["So18UIFocusEnvironmentP", "role"]
+- !private ["So18UIFocusEnvironmentP", "subject_textfield"]
+- !private ["So18UIFocusEnvironmentP", "tapDismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "textField"]
+- ["So18UIFocusEnvironmentP", "textFieldDidBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldDidEndEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldClear"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldEndEditing"]
+- ["So18UIFocusEnvironmentP", "textFieldShouldReturn"]
+- !private ["So18UIFocusEnvironmentP", "uniqueid"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "becomeFirstResponder"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So10UIKeyInputP", "becomeFirstResponder"]
+- !private ["So10UIKeyInputP", "delegate"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserProfile"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "activateKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "bio"]
+- !private ["So30UIPasteConfigurationSupportingP", "contactList"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "email_texxtfield"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "firstname_textfield"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "lastname_textfield"]
+- !private ["So30UIPasteConfigurationSupportingP", "newUserInfo"]
+- !private ["So30UIPasteConfigurationSupportingP", "password_textfield"]
+- !private ["So30UIPasteConfigurationSupportingP", "profilePic"]
+- !private ["So30UIPasteConfigurationSupportingP", "role"]
+- !private ["So30UIPasteConfigurationSupportingP", "subject_textfield"]
+- !private ["So30UIPasteConfigurationSupportingP", "tapDismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "textField"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldDidEndEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldClear"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldEndEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textFieldShouldReturn"]
+- !private ["So30UIPasteConfigurationSupportingP", "uniqueid"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "BioViewController"]
+- !private ["So11UIResponderC", "NSArray"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UserProfile"]
+- ["So11UIResponderC", "activateKeyboard"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "becomeFirstResponder"]
+- ["So11UIResponderC", "bio"]
+- ["So11UIResponderC", "contactList"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "dismissKeyboard"]
+- ["So11UIResponderC", "email_texxtfield"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "firstname_textfield"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lastname_textfield"]
+- !private ["So11UIResponderC", "newUserInfo"]
+- ["So11UIResponderC", "password_textfield"]
+- ["So11UIResponderC", "prepare"]
+- ["So11UIResponderC", "profilePic"]
+- ["So11UIResponderC", "role"]
+- ["So11UIResponderC", "subject_textfield"]
+- ["So11UIResponderC", "tapDismissKeyboard"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textField"]
+- ["So11UIResponderC", "textFieldDidBeginEditing"]
+- ["So11UIResponderC", "textFieldDidEndEditing"]
+- ["So11UIResponderC", "textFieldShouldBeginEditing"]
+- ["So11UIResponderC", "textFieldShouldClear"]
+- ["So11UIResponderC", "textFieldShouldEndEditing"]
+- ["So11UIResponderC", "textFieldShouldReturn"]
+- ["So11UIResponderC", "uniqueid"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UserProfile"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "activateKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "bio"]
+- !private ["So30UIResponderStandardEditActionsP", "contactList"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "email_texxtfield"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "firstname_textfield"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "lastname_textfield"]
+- !private ["So30UIResponderStandardEditActionsP", "newUserInfo"]
+- !private ["So30UIResponderStandardEditActionsP", "password_textfield"]
+- !private ["So30UIResponderStandardEditActionsP", "profilePic"]
+- !private ["So30UIResponderStandardEditActionsP", "role"]
+- !private ["So30UIResponderStandardEditActionsP", "subject_textfield"]
+- !private ["So30UIResponderStandardEditActionsP", "tapDismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "textField"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldDidEndEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldClear"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldEndEditing"]
+- ["So30UIResponderStandardEditActionsP", "textFieldShouldReturn"]
+- !private ["So30UIResponderStandardEditActionsP", "uniqueid"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "newUserInfo"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UserProfile"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "activateKeyboard"]
+- !private ["So16UIStateRestoringP", "bio"]
+- !private ["So16UIStateRestoringP", "contactList"]
+- !private ["So16UIStateRestoringP", "dismissKeyboard"]
+- !private ["So16UIStateRestoringP", "email_texxtfield"]
+- !private ["So16UIStateRestoringP", "firstname_textfield"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "lastname_textfield"]
+- !private ["So16UIStateRestoringP", "newUserInfo"]
+- !private ["So16UIStateRestoringP", "password_textfield"]
+- !private ["So16UIStateRestoringP", "profilePic"]
+- !private ["So16UIStateRestoringP", "role"]
+- !private ["So16UIStateRestoringP", "subject_textfield"]
+- !private ["So16UIStateRestoringP", "tapDismissKeyboard"]
+- ["So16UIStateRestoringP", "textField"]
+- ["So16UIStateRestoringP", "textFieldDidBeginEditing"]
+- ["So16UIStateRestoringP", "textFieldDidEndEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldBeginEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldClear"]
+- ["So16UIStateRestoringP", "textFieldShouldEndEditing"]
+- ["So16UIStateRestoringP", "textFieldShouldReturn"]
+- !private ["So16UIStateRestoringP", "uniqueid"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So15UITextDraggableP", "becomeFirstResponder"]
+- !private ["So15UITextDraggableP", "delegate"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "becomeFirstResponder"]
+- !private ["So15UITextDroppableP", "delegate"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "becomeFirstResponder"]
+- !private ["So11UITextFieldC", "delegate"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So19UITextFieldDelegateP", "UITapGestureRecognizer"]
+- !private ["So19UITextFieldDelegateP", "UserProfile"]
+- ["So19UITextFieldDelegateP", ""]
+- !private ["So19UITextFieldDelegateP", "activateKeyboard"]
+- !private ["So19UITextFieldDelegateP", "bio"]
+- !private ["So19UITextFieldDelegateP", "contactList"]
+- !private ["So19UITextFieldDelegateP", "dismissKeyboard"]
+- !private ["So19UITextFieldDelegateP", "email_texxtfield"]
+- !private ["So19UITextFieldDelegateP", "firstname_textfield"]
+- !private ["So19UITextFieldDelegateP", "lastname_textfield"]
+- !private ["So19UITextFieldDelegateP", "password_textfield"]
+- !private ["So19UITextFieldDelegateP", "profilePic"]
+- !private ["So19UITextFieldDelegateP", "role"]
+- !private ["So19UITextFieldDelegateP", "subject_textfield"]
+- !private ["So19UITextFieldDelegateP", "tapDismissKeyboard"]
+- ["So19UITextFieldDelegateP", "textField"]
+- ["So19UITextFieldDelegateP", "textFieldDidBeginEditing"]
+- ["So19UITextFieldDelegateP", "textFieldDidEndEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldBeginEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldClear"]
+- ["So19UITextFieldDelegateP", "textFieldShouldEndEditing"]
+- ["So19UITextFieldDelegateP", "textFieldShouldReturn"]
+- !private ["So19UITextFieldDelegateP", "uniqueid"]
+- !private ["So19UITextFieldDelegateP", "view"]
+- !private ["So11UITextInputP", "becomeFirstResponder"]
+- !private ["So11UITextInputP", "delegate"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "becomeFirstResponder"]
+- !private ["So17UITextInputTraitsP", "delegate"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "delegate"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITextViewDelegateP", "newUserInfo"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UserProfile"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "activateKeyboard"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "bio"]
+- !private ["So18UITraitEnvironmentP", "contactList"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "email_texxtfield"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "firstname_textfield"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "lastname_textfield"]
+- !private ["So18UITraitEnvironmentP", "newUserInfo"]
+- !private ["So18UITraitEnvironmentP", "password_textfield"]
+- !private ["So18UITraitEnvironmentP", "profilePic"]
+- !private ["So18UITraitEnvironmentP", "role"]
+- !private ["So18UITraitEnvironmentP", "subject_textfield"]
+- !private ["So18UITraitEnvironmentP", "tapDismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "textField"]
+- ["So18UITraitEnvironmentP", "textFieldDidBeginEditing"]
+- ["So18UITraitEnvironmentP", "textFieldDidEndEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldBeginEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldClear"]
+- ["So18UITraitEnvironmentP", "textFieldShouldEndEditing"]
+- ["So18UITraitEnvironmentP", "textFieldShouldReturn"]
+- !private ["So18UITraitEnvironmentP", "uniqueid"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "becomeFirstResponder"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "BioViewController"]
+- !private ["So16UIViewControllerC", "NSArray"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UserProfile"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "activateKeyboard"]
+- ["So16UIViewControllerC", "bio"]
+- ["So16UIViewControllerC", "contactList"]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+- ["So16UIViewControllerC", "email_texxtfield"]
+- ["So16UIViewControllerC", "firstname_textfield"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "lastname_textfield"]
+- !private ["So16UIViewControllerC", "newUserInfo"]
+- ["So16UIViewControllerC", "password_textfield"]
+- ["So16UIViewControllerC", "prepare"]
+- ["So16UIViewControllerC", "profilePic"]
+- ["So16UIViewControllerC", "role"]
+- ["So16UIViewControllerC", "subject_textfield"]
+- ["So16UIViewControllerC", "tapDismissKeyboard"]
+- ["So16UIViewControllerC", "textField"]
+- ["So16UIViewControllerC", "textFieldDidBeginEditing"]
+- ["So16UIViewControllerC", "textFieldDidEndEditing"]
+- ["So16UIViewControllerC", "textFieldShouldBeginEditing"]
+- ["So16UIViewControllerC", "textFieldShouldClear"]
+- ["So16UIViewControllerC", "textFieldShouldEndEditing"]
+- ["So16UIViewControllerC", "textFieldShouldReturn"]
+- ["So16UIViewControllerC", "uniqueid"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10TutorBoard11UserProfileC", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "becomeFirstResponder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserProfile"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activateKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contactList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email_texxtfield"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstname_textfield"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastname_textfield"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "newUserInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "password_textfield"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "profilePic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subject_textfield"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapDismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldClear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textFieldShouldReturn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uniqueid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "10TutorBoard17BioViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "10TutorBoard20SignupViewControllerC"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So22UITapGestureRecognizerC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- "So19UITextFieldDelegateP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITextViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10TutorBoard11UserProfileC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "d5dc706a46be93879f10d209f0b81a71"

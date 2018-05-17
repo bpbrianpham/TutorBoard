@@ -1,0 +1,1145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BioViewController"
+provides-nominal:
+- "10TutorBoard17BioViewControllerC"
+provides-member:
+- ["10TutorBoard17BioViewControllerC", ""]
+- ["10TutorBoard17BioViewControllerC", "tapDismissKeyboard"]
+- ["10TutorBoard17BioViewControllerC", "dismissKeyboard"]
+provides-dynamic-lookup:
+- "bio_textview"
+- "dismissKeyboard"
+- "prepare"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BioViewController"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "ChooseRoleViewController"
+- "UIStoryboardSegue"
+- !private "UITapGestureRecognizer"
+- "UITextView"
+- "UITextViewDelegate"
+- "UIViewController"
+- "UserProfile"
+depends-member:
+- !private ["10TutorBoard17BioViewControllerC", "ChooseRoleViewController"]
+- ["10TutorBoard17BioViewControllerC", "UIStoryboardSegue"]
+- !private ["10TutorBoard17BioViewControllerC", "UITapGestureRecognizer"]
+- ["10TutorBoard17BioViewControllerC", "UITextView"]
+- ["10TutorBoard17BioViewControllerC", "UserProfile"]
+- ["10TutorBoard17BioViewControllerC", "activateKeyboard"]
+- ["10TutorBoard17BioViewControllerC", "bio_textview"]
+- ["10TutorBoard17BioViewControllerC", "deinit"]
+- ["10TutorBoard17BioViewControllerC", "dismissKeyboard"]
+- ["10TutorBoard17BioViewControllerC", "init"]
+- ["10TutorBoard17BioViewControllerC", "newUserInfo"]
+- ["10TutorBoard17BioViewControllerC", "prepare"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidEndDecelerating"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidEndDragging"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidEndScrollingAnimation"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidEndZooming"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidScroll"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidScrollToTop"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewDidZoom"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewShouldScrollToTop"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewWillBeginDecelerating"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewWillBeginDragging"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewWillBeginZooming"]
+- ["10TutorBoard17BioViewControllerC", "scrollViewWillEndDragging"]
+- ["10TutorBoard17BioViewControllerC", "tapDismissKeyboard"]
+- ["10TutorBoard17BioViewControllerC", "textView"]
+- ["10TutorBoard17BioViewControllerC", "textViewDidBeginEditing"]
+- ["10TutorBoard17BioViewControllerC", "textViewDidChange"]
+- ["10TutorBoard17BioViewControllerC", "textViewDidChangeSelection"]
+- ["10TutorBoard17BioViewControllerC", "textViewDidEndEditing"]
+- ["10TutorBoard17BioViewControllerC", "textViewShouldBeginEditing"]
+- ["10TutorBoard17BioViewControllerC", "textViewShouldEndEditing"]
+- !private ["10TutorBoard17BioViewControllerC", "view"]
+- ["10TutorBoard17BioViewControllerC", "viewDidLoad"]
+- ["10TutorBoard17BioViewControllerC", "viewForZooming"]
+- ["10TutorBoard17BioViewControllerC", "viewForZoomingInScrollView"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "becomeFirstResponder"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "isEditable"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activateKeyboard"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "becomeFirstResponder"]
+- !private ["s7CVarArgP", "bio"]
+- !private ["s7CVarArgP", "bio_textview"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "dismissKeyboard"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEditable"]
+- !private ["s7CVarArgP", "newUserInfo"]
+- ["s7CVarArgP", "scrollViewDidChangeAdjustedContentInset"]
+- ["s7CVarArgP", "scrollViewDidEndDecelerating"]
+- ["s7CVarArgP", "scrollViewDidEndDragging"]
+- ["s7CVarArgP", "scrollViewDidEndScrollingAnimation"]
+- ["s7CVarArgP", "scrollViewDidEndZooming"]
+- ["s7CVarArgP", "scrollViewDidScroll"]
+- ["s7CVarArgP", "scrollViewDidScrollToTop"]
+- ["s7CVarArgP", "scrollViewDidZoom"]
+- ["s7CVarArgP", "scrollViewShouldScrollToTop"]
+- ["s7CVarArgP", "scrollViewWillBeginDecelerating"]
+- ["s7CVarArgP", "scrollViewWillBeginDragging"]
+- ["s7CVarArgP", "scrollViewWillBeginZooming"]
+- ["s7CVarArgP", "scrollViewWillEndDragging"]
+- !private ["s7CVarArgP", "tapDismissKeyboard"]
+- !private ["s7CVarArgP", "text"]
+- ["s7CVarArgP", "textView"]
+- ["s7CVarArgP", "textViewDidBeginEditing"]
+- ["s7CVarArgP", "textViewDidChange"]
+- ["s7CVarArgP", "textViewDidChangeSelection"]
+- ["s7CVarArgP", "textViewDidEndEditing"]
+- ["s7CVarArgP", "textViewShouldBeginEditing"]
+- ["s7CVarArgP", "textViewShouldEndEditing"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "viewForZooming"]
+- ["s7CVarArgP", "viewForZoomingInScrollView"]
+- !private ["10TutorBoard24ChooseRoleViewControllerC", "newUserInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activateKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "bio"]
+- !private ["s28CustomDebugStringConvertibleP", "bio_textview"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEditable"]
+- !private ["s28CustomDebugStringConvertibleP", "newUserInfo"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDecelerating"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDragging"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidEndScrollingAnimation"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidEndZooming"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidScroll"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidScrollToTop"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewDidZoom"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewShouldScrollToTop"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewWillBeginDecelerating"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewWillBeginDragging"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewWillBeginZooming"]
+- ["s28CustomDebugStringConvertibleP", "scrollViewWillEndDragging"]
+- !private ["s28CustomDebugStringConvertibleP", "tapDismissKeyboard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- ["s28CustomDebugStringConvertibleP", "textView"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidChange"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidChangeSelection"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textViewShouldBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textViewShouldEndEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "viewForZooming"]
+- ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activateKeyboard"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "bio"]
+- !private ["s23CustomStringConvertibleP", "bio_textview"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "dismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEditable"]
+- !private ["s23CustomStringConvertibleP", "newUserInfo"]
+- ["s23CustomStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
+- ["s23CustomStringConvertibleP", "scrollViewDidEndDecelerating"]
+- ["s23CustomStringConvertibleP", "scrollViewDidEndDragging"]
+- ["s23CustomStringConvertibleP", "scrollViewDidEndScrollingAnimation"]
+- ["s23CustomStringConvertibleP", "scrollViewDidEndZooming"]
+- ["s23CustomStringConvertibleP", "scrollViewDidScroll"]
+- ["s23CustomStringConvertibleP", "scrollViewDidScrollToTop"]
+- ["s23CustomStringConvertibleP", "scrollViewDidZoom"]
+- ["s23CustomStringConvertibleP", "scrollViewShouldScrollToTop"]
+- ["s23CustomStringConvertibleP", "scrollViewWillBeginDecelerating"]
+- ["s23CustomStringConvertibleP", "scrollViewWillBeginDragging"]
+- ["s23CustomStringConvertibleP", "scrollViewWillBeginZooming"]
+- ["s23CustomStringConvertibleP", "scrollViewWillEndDragging"]
+- !private ["s23CustomStringConvertibleP", "tapDismissKeyboard"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- ["s23CustomStringConvertibleP", "textView"]
+- ["s23CustomStringConvertibleP", "textViewDidBeginEditing"]
+- ["s23CustomStringConvertibleP", "textViewDidChange"]
+- ["s23CustomStringConvertibleP", "textViewDidChangeSelection"]
+- ["s23CustomStringConvertibleP", "textViewDidEndEditing"]
+- ["s23CustomStringConvertibleP", "textViewShouldBeginEditing"]
+- ["s23CustomStringConvertibleP", "textViewShouldEndEditing"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "viewForZooming"]
+- ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "activateKeyboard"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "becomeFirstResponder"]
+- !private ["s9EquatableP", "bio"]
+- !private ["s9EquatableP", "bio_textview"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "dismissKeyboard"]
+- !private ["s9EquatableP", "endEditing"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEditable"]
+- !private ["s9EquatableP", "newUserInfo"]
+- ["s9EquatableP", "scrollViewDidChangeAdjustedContentInset"]
+- ["s9EquatableP", "scrollViewDidEndDecelerating"]
+- ["s9EquatableP", "scrollViewDidEndDragging"]
+- ["s9EquatableP", "scrollViewDidEndScrollingAnimation"]
+- ["s9EquatableP", "scrollViewDidEndZooming"]
+- ["s9EquatableP", "scrollViewDidScroll"]
+- ["s9EquatableP", "scrollViewDidScrollToTop"]
+- ["s9EquatableP", "scrollViewDidZoom"]
+- ["s9EquatableP", "scrollViewShouldScrollToTop"]
+- ["s9EquatableP", "scrollViewWillBeginDecelerating"]
+- ["s9EquatableP", "scrollViewWillBeginDragging"]
+- ["s9EquatableP", "scrollViewWillBeginZooming"]
+- ["s9EquatableP", "scrollViewWillEndDragging"]
+- !private ["s9EquatableP", "tapDismissKeyboard"]
+- !private ["s9EquatableP", "text"]
+- ["s9EquatableP", "textView"]
+- ["s9EquatableP", "textViewDidBeginEditing"]
+- ["s9EquatableP", "textViewDidChange"]
+- ["s9EquatableP", "textViewDidChangeSelection"]
+- ["s9EquatableP", "textViewDidEndEditing"]
+- ["s9EquatableP", "textViewShouldBeginEditing"]
+- ["s9EquatableP", "textViewShouldEndEditing"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", "viewForZooming"]
+- ["s9EquatableP", "viewForZoomingInScrollView"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "activateKeyboard"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "becomeFirstResponder"]
+- !private ["s8HashableP", "bio"]
+- !private ["s8HashableP", "bio_textview"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "dismissKeyboard"]
+- !private ["s8HashableP", "endEditing"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEditable"]
+- !private ["s8HashableP", "newUserInfo"]
+- ["s8HashableP", "scrollViewDidChangeAdjustedContentInset"]
+- ["s8HashableP", "scrollViewDidEndDecelerating"]
+- ["s8HashableP", "scrollViewDidEndDragging"]
+- ["s8HashableP", "scrollViewDidEndScrollingAnimation"]
+- ["s8HashableP", "scrollViewDidEndZooming"]
+- ["s8HashableP", "scrollViewDidScroll"]
+- ["s8HashableP", "scrollViewDidScrollToTop"]
+- ["s8HashableP", "scrollViewDidZoom"]
+- ["s8HashableP", "scrollViewShouldScrollToTop"]
+- ["s8HashableP", "scrollViewWillBeginDecelerating"]
+- ["s8HashableP", "scrollViewWillBeginDragging"]
+- ["s8HashableP", "scrollViewWillBeginZooming"]
+- ["s8HashableP", "scrollViewWillEndDragging"]
+- !private ["s8HashableP", "tapDismissKeyboard"]
+- !private ["s8HashableP", "text"]
+- ["s8HashableP", "textView"]
+- ["s8HashableP", "textViewDidBeginEditing"]
+- ["s8HashableP", "textViewDidChange"]
+- ["s8HashableP", "textViewDidChangeSelection"]
+- ["s8HashableP", "textViewDidEndEditing"]
+- ["s8HashableP", "textViewShouldBeginEditing"]
+- ["s8HashableP", "textViewShouldEndEditing"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", "viewForZooming"]
+- ["s8HashableP", "viewForZoomingInScrollView"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "activateKeyboard"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "becomeFirstResponder"]
+- !private ["So8NSCodingP", "bio_textview"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dismissKeyboard"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEditable"]
+- !private ["So8NSCodingP", "newUserInfo"]
+- ["So8NSCodingP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So8NSCodingP", "scrollViewDidEndDecelerating"]
+- ["So8NSCodingP", "scrollViewDidEndDragging"]
+- ["So8NSCodingP", "scrollViewDidEndScrollingAnimation"]
+- ["So8NSCodingP", "scrollViewDidEndZooming"]
+- ["So8NSCodingP", "scrollViewDidScroll"]
+- ["So8NSCodingP", "scrollViewDidScrollToTop"]
+- ["So8NSCodingP", "scrollViewDidZoom"]
+- ["So8NSCodingP", "scrollViewShouldScrollToTop"]
+- ["So8NSCodingP", "scrollViewWillBeginDecelerating"]
+- ["So8NSCodingP", "scrollViewWillBeginDragging"]
+- ["So8NSCodingP", "scrollViewWillBeginZooming"]
+- ["So8NSCodingP", "scrollViewWillEndDragging"]
+- !private ["So8NSCodingP", "tapDismissKeyboard"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "textView"]
+- ["So8NSCodingP", "textViewDidBeginEditing"]
+- ["So8NSCodingP", "textViewDidChange"]
+- ["So8NSCodingP", "textViewDidChangeSelection"]
+- ["So8NSCodingP", "textViewDidEndEditing"]
+- ["So8NSCodingP", "textViewShouldBeginEditing"]
+- ["So8NSCodingP", "textViewShouldEndEditing"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "viewForZooming"]
+- ["So8NSCodingP", "viewForZoomingInScrollView"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "activateKeyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "bio_textview"]
+- !private ["So26NSExtensionRequestHandlingP", "dismissKeyboard"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "newUserInfo"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDecelerating"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDragging"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidEndScrollingAnimation"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidEndZooming"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidScroll"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidScrollToTop"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewDidZoom"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewShouldScrollToTop"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewWillBeginDecelerating"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewWillBeginDragging"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewWillBeginZooming"]
+- ["So26NSExtensionRequestHandlingP", "scrollViewWillEndDragging"]
+- !private ["So26NSExtensionRequestHandlingP", "tapDismissKeyboard"]
+- ["So26NSExtensionRequestHandlingP", "textView"]
+- ["So26NSExtensionRequestHandlingP", "textViewDidBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textViewDidChange"]
+- ["So26NSExtensionRequestHandlingP", "textViewDidChangeSelection"]
+- ["So26NSExtensionRequestHandlingP", "textViewDidEndEditing"]
+- ["So26NSExtensionRequestHandlingP", "textViewShouldBeginEditing"]
+- ["So26NSExtensionRequestHandlingP", "textViewShouldEndEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "viewForZooming"]
+- ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
+- !private ["So8NSObjectC", "ChooseRoleViewController"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "UserProfile"]
+- ["So8NSObjectC", "activateKeyboard"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "becomeFirstResponder"]
+- !private ["So8NSObjectC", "bio"]
+- ["So8NSObjectC", "bio_textview"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "dismissKeyboard"]
+- !private ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEditable"]
+- ["So8NSObjectC", "newUserInfo"]
+- ["So8NSObjectC", "prepare"]
+- ["So8NSObjectC", "scrollViewDidChangeAdjustedContentInset"]
+- ["So8NSObjectC", "scrollViewDidEndDecelerating"]
+- ["So8NSObjectC", "scrollViewDidEndDragging"]
+- ["So8NSObjectC", "scrollViewDidEndScrollingAnimation"]
+- ["So8NSObjectC", "scrollViewDidEndZooming"]
+- ["So8NSObjectC", "scrollViewDidScroll"]
+- ["So8NSObjectC", "scrollViewDidScrollToTop"]
+- ["So8NSObjectC", "scrollViewDidZoom"]
+- ["So8NSObjectC", "scrollViewShouldScrollToTop"]
+- ["So8NSObjectC", "scrollViewWillBeginDecelerating"]
+- ["So8NSObjectC", "scrollViewWillBeginDragging"]
+- ["So8NSObjectC", "scrollViewWillBeginZooming"]
+- ["So8NSObjectC", "scrollViewWillEndDragging"]
+- ["So8NSObjectC", "tapDismissKeyboard"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textView"]
+- ["So8NSObjectC", "textViewDidBeginEditing"]
+- ["So8NSObjectC", "textViewDidChange"]
+- ["So8NSObjectC", "textViewDidChangeSelection"]
+- ["So8NSObjectC", "textViewDidEndEditing"]
+- ["So8NSObjectC", "textViewShouldBeginEditing"]
+- ["So8NSObjectC", "textViewShouldEndEditing"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewForZooming"]
+- ["So8NSObjectC", "viewForZoomingInScrollView"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "activateKeyboard"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "becomeFirstResponder"]
+- !private ["So16NSObjectProtocolP", "bio"]
+- !private ["So16NSObjectProtocolP", "bio_textview"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "dismissKeyboard"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEditable"]
+- !private ["So16NSObjectProtocolP", "newUserInfo"]
+- ["So16NSObjectProtocolP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So16NSObjectProtocolP", "scrollViewDidEndDecelerating"]
+- ["So16NSObjectProtocolP", "scrollViewDidEndDragging"]
+- ["So16NSObjectProtocolP", "scrollViewDidEndScrollingAnimation"]
+- ["So16NSObjectProtocolP", "scrollViewDidEndZooming"]
+- ["So16NSObjectProtocolP", "scrollViewDidScroll"]
+- ["So16NSObjectProtocolP", "scrollViewDidScrollToTop"]
+- ["So16NSObjectProtocolP", "scrollViewDidZoom"]
+- ["So16NSObjectProtocolP", "scrollViewShouldScrollToTop"]
+- ["So16NSObjectProtocolP", "scrollViewWillBeginDecelerating"]
+- ["So16NSObjectProtocolP", "scrollViewWillBeginDragging"]
+- ["So16NSObjectProtocolP", "scrollViewWillBeginZooming"]
+- ["So16NSObjectProtocolP", "scrollViewWillEndDragging"]
+- !private ["So16NSObjectProtocolP", "tapDismissKeyboard"]
+- !private ["So16NSObjectProtocolP", "text"]
+- ["So16NSObjectProtocolP", "textView"]
+- ["So16NSObjectProtocolP", "textViewDidBeginEditing"]
+- ["So16NSObjectProtocolP", "textViewDidChange"]
+- ["So16NSObjectProtocolP", "textViewDidChangeSelection"]
+- ["So16NSObjectProtocolP", "textViewDidEndEditing"]
+- ["So16NSObjectProtocolP", "textViewShouldBeginEditing"]
+- ["So16NSObjectProtocolP", "textViewShouldEndEditing"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", "viewForZooming"]
+- ["So16NSObjectProtocolP", "viewForZoomingInScrollView"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "becomeFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "isEditable"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "becomeFirstResponder"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "isEditable"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "activateKeyboard"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "bio_textview"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isEditable"]
+- !private ["So21UIAppearanceContainerP", "newUserInfo"]
+- ["So21UIAppearanceContainerP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So21UIAppearanceContainerP", "scrollViewDidEndDecelerating"]
+- ["So21UIAppearanceContainerP", "scrollViewDidEndDragging"]
+- ["So21UIAppearanceContainerP", "scrollViewDidEndScrollingAnimation"]
+- ["So21UIAppearanceContainerP", "scrollViewDidEndZooming"]
+- ["So21UIAppearanceContainerP", "scrollViewDidScroll"]
+- ["So21UIAppearanceContainerP", "scrollViewDidScrollToTop"]
+- ["So21UIAppearanceContainerP", "scrollViewDidZoom"]
+- ["So21UIAppearanceContainerP", "scrollViewShouldScrollToTop"]
+- ["So21UIAppearanceContainerP", "scrollViewWillBeginDecelerating"]
+- ["So21UIAppearanceContainerP", "scrollViewWillBeginDragging"]
+- ["So21UIAppearanceContainerP", "scrollViewWillBeginZooming"]
+- ["So21UIAppearanceContainerP", "scrollViewWillEndDragging"]
+- !private ["So21UIAppearanceContainerP", "tapDismissKeyboard"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "textView"]
+- ["So21UIAppearanceContainerP", "textViewDidBeginEditing"]
+- ["So21UIAppearanceContainerP", "textViewDidChange"]
+- ["So21UIAppearanceContainerP", "textViewDidChangeSelection"]
+- ["So21UIAppearanceContainerP", "textViewDidEndEditing"]
+- ["So21UIAppearanceContainerP", "textViewShouldBeginEditing"]
+- ["So21UIAppearanceContainerP", "textViewShouldEndEditing"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "viewForZooming"]
+- ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "activateKeyboard"]
+- !private ["So18UIContentContainerP", "bio_textview"]
+- !private ["So18UIContentContainerP", "dismissKeyboard"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "newUserInfo"]
+- ["So18UIContentContainerP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So18UIContentContainerP", "scrollViewDidEndDecelerating"]
+- ["So18UIContentContainerP", "scrollViewDidEndDragging"]
+- ["So18UIContentContainerP", "scrollViewDidEndScrollingAnimation"]
+- ["So18UIContentContainerP", "scrollViewDidEndZooming"]
+- ["So18UIContentContainerP", "scrollViewDidScroll"]
+- ["So18UIContentContainerP", "scrollViewDidScrollToTop"]
+- ["So18UIContentContainerP", "scrollViewDidZoom"]
+- ["So18UIContentContainerP", "scrollViewShouldScrollToTop"]
+- ["So18UIContentContainerP", "scrollViewWillBeginDecelerating"]
+- ["So18UIContentContainerP", "scrollViewWillBeginDragging"]
+- ["So18UIContentContainerP", "scrollViewWillBeginZooming"]
+- ["So18UIContentContainerP", "scrollViewWillEndDragging"]
+- !private ["So18UIContentContainerP", "tapDismissKeyboard"]
+- ["So18UIContentContainerP", "textView"]
+- ["So18UIContentContainerP", "textViewDidBeginEditing"]
+- ["So18UIContentContainerP", "textViewDidChange"]
+- ["So18UIContentContainerP", "textViewDidChangeSelection"]
+- ["So18UIContentContainerP", "textViewDidEndEditing"]
+- ["So18UIContentContainerP", "textViewShouldBeginEditing"]
+- ["So18UIContentContainerP", "textViewShouldEndEditing"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "viewForZooming"]
+- ["So18UIContentContainerP", "viewForZoomingInScrollView"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "becomeFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "delegate"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isEditable"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "becomeFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "isEditable"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "becomeFirstResponder"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "isEditable"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "activateKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "bio_textview"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isEditable"]
+- !private ["So18UIFocusEnvironmentP", "newUserInfo"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidEndDecelerating"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidEndDragging"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidEndScrollingAnimation"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidEndZooming"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidScroll"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidScrollToTop"]
+- ["So18UIFocusEnvironmentP", "scrollViewDidZoom"]
+- ["So18UIFocusEnvironmentP", "scrollViewShouldScrollToTop"]
+- ["So18UIFocusEnvironmentP", "scrollViewWillBeginDecelerating"]
+- ["So18UIFocusEnvironmentP", "scrollViewWillBeginDragging"]
+- ["So18UIFocusEnvironmentP", "scrollViewWillBeginZooming"]
+- ["So18UIFocusEnvironmentP", "scrollViewWillEndDragging"]
+- !private ["So18UIFocusEnvironmentP", "tapDismissKeyboard"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "textView"]
+- ["So18UIFocusEnvironmentP", "textViewDidBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textViewDidChange"]
+- ["So18UIFocusEnvironmentP", "textViewDidChangeSelection"]
+- ["So18UIFocusEnvironmentP", "textViewDidEndEditing"]
+- ["So18UIFocusEnvironmentP", "textViewShouldBeginEditing"]
+- ["So18UIFocusEnvironmentP", "textViewShouldEndEditing"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "viewForZooming"]
+- ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "becomeFirstResponder"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "isEditable"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So10UIKeyInputP", "becomeFirstResponder"]
+- !private ["So10UIKeyInputP", "delegate"]
+- !private ["So10UIKeyInputP", "isEditable"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "activateKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "bio_textview"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isEditable"]
+- !private ["So30UIPasteConfigurationSupportingP", "newUserInfo"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndDecelerating"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndDragging"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndScrollingAnimation"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndZooming"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidScroll"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidScrollToTop"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewDidZoom"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewShouldScrollToTop"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewWillBeginDecelerating"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewWillBeginDragging"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewWillBeginZooming"]
+- ["So30UIPasteConfigurationSupportingP", "scrollViewWillEndDragging"]
+- !private ["So30UIPasteConfigurationSupportingP", "tapDismissKeyboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "textView"]
+- ["So30UIPasteConfigurationSupportingP", "textViewDidBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textViewDidChange"]
+- ["So30UIPasteConfigurationSupportingP", "textViewDidChangeSelection"]
+- ["So30UIPasteConfigurationSupportingP", "textViewDidEndEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textViewShouldBeginEditing"]
+- ["So30UIPasteConfigurationSupportingP", "textViewShouldEndEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
+- ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
+- !private ["So11UIResponderC", "ChooseRoleViewController"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "UserProfile"]
+- ["So11UIResponderC", "activateKeyboard"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "becomeFirstResponder"]
+- ["So11UIResponderC", "bio_textview"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "dismissKeyboard"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isEditable"]
+- ["So11UIResponderC", "newUserInfo"]
+- ["So11UIResponderC", "prepare"]
+- ["So11UIResponderC", "scrollViewDidChangeAdjustedContentInset"]
+- ["So11UIResponderC", "scrollViewDidEndDecelerating"]
+- ["So11UIResponderC", "scrollViewDidEndDragging"]
+- ["So11UIResponderC", "scrollViewDidEndScrollingAnimation"]
+- ["So11UIResponderC", "scrollViewDidEndZooming"]
+- ["So11UIResponderC", "scrollViewDidScroll"]
+- ["So11UIResponderC", "scrollViewDidScrollToTop"]
+- ["So11UIResponderC", "scrollViewDidZoom"]
+- ["So11UIResponderC", "scrollViewShouldScrollToTop"]
+- ["So11UIResponderC", "scrollViewWillBeginDecelerating"]
+- ["So11UIResponderC", "scrollViewWillBeginDragging"]
+- ["So11UIResponderC", "scrollViewWillBeginZooming"]
+- ["So11UIResponderC", "scrollViewWillEndDragging"]
+- ["So11UIResponderC", "tapDismissKeyboard"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textView"]
+- ["So11UIResponderC", "textViewDidBeginEditing"]
+- ["So11UIResponderC", "textViewDidChange"]
+- ["So11UIResponderC", "textViewDidChangeSelection"]
+- ["So11UIResponderC", "textViewDidEndEditing"]
+- ["So11UIResponderC", "textViewShouldBeginEditing"]
+- ["So11UIResponderC", "textViewShouldEndEditing"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewForZooming"]
+- ["So11UIResponderC", "viewForZoomingInScrollView"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "activateKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "bio_textview"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isEditable"]
+- !private ["So30UIResponderStandardEditActionsP", "newUserInfo"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidEndDecelerating"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidEndDragging"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidEndScrollingAnimation"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidEndZooming"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidScroll"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidScrollToTop"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewDidZoom"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewShouldScrollToTop"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewWillBeginDecelerating"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewWillBeginDragging"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewWillBeginZooming"]
+- ["So30UIResponderStandardEditActionsP", "scrollViewWillEndDragging"]
+- !private ["So30UIResponderStandardEditActionsP", "tapDismissKeyboard"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "textView"]
+- ["So30UIResponderStandardEditActionsP", "textViewDidBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textViewDidChange"]
+- ["So30UIResponderStandardEditActionsP", "textViewDidChangeSelection"]
+- ["So30UIResponderStandardEditActionsP", "textViewDidEndEditing"]
+- ["So30UIResponderStandardEditActionsP", "textViewShouldBeginEditing"]
+- ["So30UIResponderStandardEditActionsP", "textViewShouldEndEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "viewForZooming"]
+- ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
+- !private ["So12UIScrollViewC", "becomeFirstResponder"]
+- !private ["So12UIScrollViewC", "delegate"]
+- !private ["So12UIScrollViewC", "isEditable"]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So20UIScrollViewDelegateP", "UITapGestureRecognizer"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "activateKeyboard"]
+- !private ["So20UIScrollViewDelegateP", "bio_textview"]
+- !private ["So20UIScrollViewDelegateP", "dismissKeyboard"]
+- !private ["So20UIScrollViewDelegateP", "newUserInfo"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidEndDecelerating"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidEndDragging"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidEndScrollingAnimation"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidEndZooming"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidScroll"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidScrollToTop"]
+- ["So20UIScrollViewDelegateP", "scrollViewDidZoom"]
+- ["So20UIScrollViewDelegateP", "scrollViewShouldScrollToTop"]
+- ["So20UIScrollViewDelegateP", "scrollViewWillBeginDecelerating"]
+- ["So20UIScrollViewDelegateP", "scrollViewWillBeginDragging"]
+- ["So20UIScrollViewDelegateP", "scrollViewWillBeginZooming"]
+- ["So20UIScrollViewDelegateP", "scrollViewWillEndDragging"]
+- !private ["So20UIScrollViewDelegateP", "tapDismissKeyboard"]
+- ["So20UIScrollViewDelegateP", "textView"]
+- ["So20UIScrollViewDelegateP", "textViewDidBeginEditing"]
+- ["So20UIScrollViewDelegateP", "textViewDidChange"]
+- ["So20UIScrollViewDelegateP", "textViewDidChangeSelection"]
+- ["So20UIScrollViewDelegateP", "textViewDidEndEditing"]
+- ["So20UIScrollViewDelegateP", "textViewShouldBeginEditing"]
+- ["So20UIScrollViewDelegateP", "textViewShouldEndEditing"]
+- !private ["So20UIScrollViewDelegateP", "view"]
+- ["So20UIScrollViewDelegateP", "viewForZooming"]
+- ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "activateKeyboard"]
+- !private ["So16UIStateRestoringP", "bio_textview"]
+- !private ["So16UIStateRestoringP", "dismissKeyboard"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "newUserInfo"]
+- ["So16UIStateRestoringP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So16UIStateRestoringP", "scrollViewDidEndDecelerating"]
+- ["So16UIStateRestoringP", "scrollViewDidEndDragging"]
+- ["So16UIStateRestoringP", "scrollViewDidEndScrollingAnimation"]
+- ["So16UIStateRestoringP", "scrollViewDidEndZooming"]
+- ["So16UIStateRestoringP", "scrollViewDidScroll"]
+- ["So16UIStateRestoringP", "scrollViewDidScrollToTop"]
+- ["So16UIStateRestoringP", "scrollViewDidZoom"]
+- ["So16UIStateRestoringP", "scrollViewShouldScrollToTop"]
+- ["So16UIStateRestoringP", "scrollViewWillBeginDecelerating"]
+- ["So16UIStateRestoringP", "scrollViewWillBeginDragging"]
+- ["So16UIStateRestoringP", "scrollViewWillBeginZooming"]
+- ["So16UIStateRestoringP", "scrollViewWillEndDragging"]
+- !private ["So16UIStateRestoringP", "tapDismissKeyboard"]
+- ["So16UIStateRestoringP", "textView"]
+- ["So16UIStateRestoringP", "textViewDidBeginEditing"]
+- ["So16UIStateRestoringP", "textViewDidChange"]
+- ["So16UIStateRestoringP", "textViewDidChangeSelection"]
+- ["So16UIStateRestoringP", "textViewDidEndEditing"]
+- ["So16UIStateRestoringP", "textViewShouldBeginEditing"]
+- ["So16UIStateRestoringP", "textViewShouldEndEditing"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "viewForZooming"]
+- ["So16UIStateRestoringP", "viewForZoomingInScrollView"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So15UITextDraggableP", "becomeFirstResponder"]
+- !private ["So15UITextDraggableP", "delegate"]
+- !private ["So15UITextDraggableP", "isEditable"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "becomeFirstResponder"]
+- !private ["So15UITextDroppableP", "delegate"]
+- !private ["So15UITextDroppableP", "isEditable"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextInputP", "becomeFirstResponder"]
+- !private ["So11UITextInputP", "delegate"]
+- !private ["So11UITextInputP", "isEditable"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "becomeFirstResponder"]
+- !private ["So17UITextInputTraitsP", "delegate"]
+- !private ["So17UITextInputTraitsP", "isEditable"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "delegate"]
+- !private ["So34UITextPasteConfigurationSupportingP", "isEditable"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "becomeFirstResponder"]
+- !private ["So10UITextViewC", "delegate"]
+- !private ["So10UITextViewC", "isEditable"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITextViewDelegateP", "UITapGestureRecognizer"]
+- ["So18UITextViewDelegateP", ""]
+- !private ["So18UITextViewDelegateP", "activateKeyboard"]
+- !private ["So18UITextViewDelegateP", "bio_textview"]
+- !private ["So18UITextViewDelegateP", "dismissKeyboard"]
+- !private ["So18UITextViewDelegateP", "newUserInfo"]
+- ["So18UITextViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So18UITextViewDelegateP", "scrollViewDidEndDecelerating"]
+- ["So18UITextViewDelegateP", "scrollViewDidEndDragging"]
+- ["So18UITextViewDelegateP", "scrollViewDidEndScrollingAnimation"]
+- ["So18UITextViewDelegateP", "scrollViewDidEndZooming"]
+- ["So18UITextViewDelegateP", "scrollViewDidScroll"]
+- ["So18UITextViewDelegateP", "scrollViewDidScrollToTop"]
+- ["So18UITextViewDelegateP", "scrollViewDidZoom"]
+- ["So18UITextViewDelegateP", "scrollViewShouldScrollToTop"]
+- ["So18UITextViewDelegateP", "scrollViewWillBeginDecelerating"]
+- ["So18UITextViewDelegateP", "scrollViewWillBeginDragging"]
+- ["So18UITextViewDelegateP", "scrollViewWillBeginZooming"]
+- ["So18UITextViewDelegateP", "scrollViewWillEndDragging"]
+- !private ["So18UITextViewDelegateP", "tapDismissKeyboard"]
+- ["So18UITextViewDelegateP", "textView"]
+- ["So18UITextViewDelegateP", "textViewDidBeginEditing"]
+- ["So18UITextViewDelegateP", "textViewDidChange"]
+- ["So18UITextViewDelegateP", "textViewDidChangeSelection"]
+- ["So18UITextViewDelegateP", "textViewDidEndEditing"]
+- ["So18UITextViewDelegateP", "textViewShouldBeginEditing"]
+- ["So18UITextViewDelegateP", "textViewShouldEndEditing"]
+- !private ["So18UITextViewDelegateP", "view"]
+- ["So18UITextViewDelegateP", "viewForZooming"]
+- ["So18UITextViewDelegateP", "viewForZoomingInScrollView"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "activateKeyboard"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "bio_textview"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isEditable"]
+- !private ["So18UITraitEnvironmentP", "newUserInfo"]
+- ["So18UITraitEnvironmentP", "scrollViewDidChangeAdjustedContentInset"]
+- ["So18UITraitEnvironmentP", "scrollViewDidEndDecelerating"]
+- ["So18UITraitEnvironmentP", "scrollViewDidEndDragging"]
+- ["So18UITraitEnvironmentP", "scrollViewDidEndScrollingAnimation"]
+- ["So18UITraitEnvironmentP", "scrollViewDidEndZooming"]
+- ["So18UITraitEnvironmentP", "scrollViewDidScroll"]
+- ["So18UITraitEnvironmentP", "scrollViewDidScrollToTop"]
+- ["So18UITraitEnvironmentP", "scrollViewDidZoom"]
+- ["So18UITraitEnvironmentP", "scrollViewShouldScrollToTop"]
+- ["So18UITraitEnvironmentP", "scrollViewWillBeginDecelerating"]
+- ["So18UITraitEnvironmentP", "scrollViewWillBeginDragging"]
+- ["So18UITraitEnvironmentP", "scrollViewWillBeginZooming"]
+- ["So18UITraitEnvironmentP", "scrollViewWillEndDragging"]
+- !private ["So18UITraitEnvironmentP", "tapDismissKeyboard"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "textView"]
+- ["So18UITraitEnvironmentP", "textViewDidBeginEditing"]
+- ["So18UITraitEnvironmentP", "textViewDidChange"]
+- ["So18UITraitEnvironmentP", "textViewDidChangeSelection"]
+- ["So18UITraitEnvironmentP", "textViewDidEndEditing"]
+- ["So18UITraitEnvironmentP", "textViewShouldBeginEditing"]
+- ["So18UITraitEnvironmentP", "textViewShouldEndEditing"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "viewForZooming"]
+- ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "becomeFirstResponder"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "isEditable"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "ChooseRoleViewController"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", "UserProfile"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "activateKeyboard"]
+- ["So16UIViewControllerC", "bio_textview"]
+- ["So16UIViewControllerC", "dismissKeyboard"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "newUserInfo"]
+- ["So16UIViewControllerC", "prepare"]
+- ["So16UIViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
+- ["So16UIViewControllerC", "scrollViewDidEndDecelerating"]
+- ["So16UIViewControllerC", "scrollViewDidEndDragging"]
+- ["So16UIViewControllerC", "scrollViewDidEndScrollingAnimation"]
+- ["So16UIViewControllerC", "scrollViewDidEndZooming"]
+- ["So16UIViewControllerC", "scrollViewDidScroll"]
+- ["So16UIViewControllerC", "scrollViewDidScrollToTop"]
+- ["So16UIViewControllerC", "scrollViewDidZoom"]
+- ["So16UIViewControllerC", "scrollViewShouldScrollToTop"]
+- ["So16UIViewControllerC", "scrollViewWillBeginDecelerating"]
+- ["So16UIViewControllerC", "scrollViewWillBeginDragging"]
+- ["So16UIViewControllerC", "scrollViewWillBeginZooming"]
+- ["So16UIViewControllerC", "scrollViewWillEndDragging"]
+- ["So16UIViewControllerC", "tapDismissKeyboard"]
+- ["So16UIViewControllerC", "textView"]
+- ["So16UIViewControllerC", "textViewDidBeginEditing"]
+- ["So16UIViewControllerC", "textViewDidChange"]
+- ["So16UIViewControllerC", "textViewDidChangeSelection"]
+- ["So16UIViewControllerC", "textViewDidEndEditing"]
+- ["So16UIViewControllerC", "textViewShouldBeginEditing"]
+- ["So16UIViewControllerC", "textViewShouldEndEditing"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewForZooming"]
+- ["So16UIViewControllerC", "viewForZoomingInScrollView"]
+- !private ["10TutorBoard11UserProfileC", "bio"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "becomeFirstResponder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isEditable"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activateKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bio"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bio_textview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEditable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "newUserInfo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidChangeAdjustedContentInset"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDecelerating"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDragging"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndScrollingAnimation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndZooming"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidScroll"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidScrollToTop"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidZoom"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewShouldScrollToTop"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillBeginDecelerating"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillBeginDragging"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillBeginZooming"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillEndDragging"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapDismissKeyboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidChangeSelection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewShouldBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewShouldEndEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
+depends-nominal:
+- "10TutorBoard17BioViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10TutorBoard24ChooseRoleViewControllerC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So22UITapGestureRecognizerC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITextViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10TutorBoard11UserProfileC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FIRMessaging.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Headers/FirebaseMessaging.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseMessaging/Frameworks/FirebaseMessaging.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/build/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/agustincards/edu/CS/453/TutorBoard/iOS_version/TutorBoard/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "3fc95057b39d7154aa464ae9dbe0a984"

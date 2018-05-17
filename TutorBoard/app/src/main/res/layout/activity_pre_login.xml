@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreLogin"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/login_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/droid_serif"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:text="TutorBoard"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:fontFamily="@font/droid_serif"/>
+
+    <Button
+        android:id="@+id/google_login_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="243dp"
+        android:fontFamily="@font/droid_serif"
+        android:text="Continue with Google"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:theme="@style/Widget.AppCompat.Button.Borderless"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="247dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/droid_serif"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+
+</RelativeLayout>

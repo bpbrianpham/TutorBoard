@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ben.tutorboard">
+          package="com.example.ben.tutorboard">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -16,49 +16,55 @@
         android:theme="@style/AppTheme">
         <activity android:name=".SplashActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity"/>
         <activity
             android:name=".DecisionActivity"
             android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ben.tutorboard.LoginActivity" />
+                android:value="com.example.ben.tutorboard.LoginActivity"/>
         </activity>
         <activity
             android:name=".InfoActivity"
             android:parentActivityName=".DecisionActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ben.tutorboard.DecisionActivity" />
+                android:value="com.example.ben.tutorboard.DecisionActivity"/>
         </activity>
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".HomeActivity"/>
 
         <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
         <service
             android:name=".MyFirebaseMessagingService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true"/>
 
         <activity
             android:name=".WritingBoard"
             android:parentActivityName=".MessageActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ben.tutorboard.MessageActivity" />
+                android:value="com.example.ben.tutorboard.MessageActivity"/>
         </activity>
+        <activity android:name=".MessageActivity"/>
+        <activity android:name=".TaylorActivity"/>
+        <activity android:name=".MarkActivity"/>
 
-        <activity android:name=".MessageActivity" />
-        <activity android:name=".TaylorActivity" />
-        <activity android:name=".MarkActivity"></activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"/>
+
+        <activity android:name=".PreLogin">
+        </activity>
     </application>
 
 </manifest>
