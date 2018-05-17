@@ -4,28 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffdab9"
+    android:background="@color/colorPrimary"
     tools:context="com.example.ben.tutorboard.DecisionActivity">
 
-    <Button
-        android:id="@+id/buttonTutor"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginVertical="95dp"
-        android:background="@drawable/rounded_border_text_view"
-        android:elevation="0dp"
-        android:text="@string/tutor"
-        android:textSize="30sp"/>
+        android:layout_marginTop="79dp"
+        android:text="TutorBoard"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:fontFamily="@font/droid_serif"/>
 
     <Button
-        android:id="@+id/buttonStudent"
+        android:id="@+id/i_am_tutor_button"
         android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/buttonTutor"
-        android:background="@drawable/rounded_border_text_view"
-        android:text="@string/student"
-        android:textSize="30sp"/>
+        android:layout_marginTop="225dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/droid_serif"
+        android:text="I am a Tutor"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <Button
+        android:id="@+id/i_am_student_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="181dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/droid_serif"
+        android:text="I am a Student"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:theme="@style/Widget.AppCompat.Button.Borderless"/>
 
 </RelativeLayout>

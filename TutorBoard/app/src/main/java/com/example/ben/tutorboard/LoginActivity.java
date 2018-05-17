@@ -1,15 +1,18 @@
 package com.example.ben.tutorboard;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private Button buttonLog;
-    private Button buttonCreate;
+    private ImageView buttonLog;
+    private EditText email;
+    private EditText password;
+//    private Button buttonCreate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         //Tapping login goes into HomeActivity
-        buttonLog = (Button) findViewById(R.id.login);
+        buttonLog = findViewById(R.id.next_button);
         buttonLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,18 +28,24 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        email = findViewById(R.id.email);
+        password = findViewById(R.id.password);
 
         //Tapping Create goes into DecisionActivity
-        buttonCreate = (Button) findViewById(R.id.create);
-        buttonCreate.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                openDecisionActivity();
-            }
-        });
+//        buttonCreate = (Button) findViewById(R.id.create);
+//        buttonCreate.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v) {
+//                openDecisionActivity();
+//            }
+//        });
     }
 
     public void openHomeActivity() {
+        String em = email.getText().toString();
+        String pass = password.getText().toString();
+        //TODO: Insert what to do with the user info Strings
+
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }

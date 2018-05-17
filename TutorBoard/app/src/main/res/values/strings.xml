@@ -23,7 +23,7 @@
     <string name="no_account">No Account?</string>
     <string name="tutor">Tutor</string>
     <string name="student">Student</string>
-    <string name="tell">Tell Us More About Yourself</string>
+    <string name="tell">Tell us about yourself.</string>
     <string name="proceed">Continue</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_home">Home</string>
@@ -32,10 +32,11 @@
     <string name="firstName">First Name</string>
     <string name="lastName">Last Name</string>
     <string name="mastery">Subject of Mastery</string>
-    <string name="bio">Bio:</string>
+    <string name="bio">Give us a short bio of yourself:</string>
     <string name="tutorImage">Board</string>
     <string name="send">Send a Message</string>
     <string name="taylor">Taylor Left</string>
     <string name="mark">Mark Disco</string>
+    <string name="next_button_description">image used as button to login and proceed to next step</string>
 
 </resources>

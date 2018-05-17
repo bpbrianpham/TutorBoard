@@ -41,14 +41,14 @@
         android:hint="@string/prompt_password"
         android:inputType="textPassword"/>
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignEnd="@+id/email"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="186dp"
-        android:background="@drawable/right_chevron"
-        android:textSize="20sp"/>
+        android:layout_marginBottom="180dp"
+        android:contentDescription="@string/next_button_description"
+        android:src="@drawable/next_button_chev"/>
 
 </RelativeLayout>

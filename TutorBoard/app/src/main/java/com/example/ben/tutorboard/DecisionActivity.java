@@ -17,7 +17,7 @@ public class DecisionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_decision);
 
         //Two buttons that will allow the user to go into the infoActivity
-        buttonTutor = (Button) findViewById(R.id.buttonTutor);
+        buttonTutor = (Button) findViewById(R.id.i_am_tutor_button);
         buttonTutor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +25,7 @@ public class DecisionActivity extends AppCompatActivity {
             }
         });
 
-        buttonStudent = (Button) findViewById(R.id.buttonStudent);
+        buttonStudent = (Button) findViewById(R.id.i_am_student_button);
         buttonStudent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
