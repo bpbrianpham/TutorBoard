@@ -21,7 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"/>
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustPan"
+            />
         <activity
             android:name=".DecisionActivity"
             android:parentActivityName=".LoginActivity">
@@ -31,7 +34,9 @@
         </activity>
         <activity
             android:name=".InfoActivity"
-            android:parentActivityName=".DecisionActivity">
+            android:parentActivityName=".DecisionActivity"
+            android:windowSoftInputMode="adjustPan"
+            >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ben.tutorboard.DecisionActivity"/>
